@@ -1,11 +1,3 @@
----
-title: "R Shiny as a Simulation Interface"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 #Introduction
 
 This tutorial presents a method of using R Shiny as a user interface for non-R based workflows. In this use case we utilize R Shiny to run a Java based discrete event simulation by editing the configuration file, calling the model execution, and processing the results. This method significantly extends the power of R Shiny as a user interface by allowing us to employ any software or user generated code that is callable from a command line interface (CLI).
