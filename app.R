@@ -1,12 +1,3 @@
-######################
-# MAJ Nathan Parker
-# TRAC-MTRY
-# R Shiny App demoing a Shiny based Simulation setup, call and post-processing.
-# 08JUN17
-########################
-
-
-
 library(shiny)
 library(shinydashboard)
 
