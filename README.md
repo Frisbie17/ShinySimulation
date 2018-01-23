@@ -283,3 +283,5 @@ shinyApp(ui = ui, server = server)
 
 In this tutorial we've demonstrated how one can use R Shiny as a user interface for a Java based discrete event simulations as a specific use case of a non-R based workflow. This option expands the realm of the possible for R Shiny applications and allows use to incorporate and leverage many tools beyond R and R packages to meet customer requirements.
 
+A running copy of the application can be found on here, "https://frisbie17.shinyapps.io/siapp/"
+
