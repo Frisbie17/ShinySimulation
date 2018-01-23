@@ -43,7 +43,7 @@ server <- function(input, output, session) {
   output$download <- downloadHandler(
     filename = "MM1_Example.zip",
     
-    # content is a function with argument file. content writes the plot to the device
+     #content is a function with argument file. content writes the plot to the device
     content = function(file) {
       file.copy("MM1_Example.zip", file)
     },
