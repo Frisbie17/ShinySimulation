@@ -1,19 +1,13 @@
-######################
-# MAJ Nathan Parker
-# TRAC-MTRY
-# Global File for R Shiny App demoing a Shiny based Simulation setup, call and post-processing.
-# 08JUN17
-########################
 
 #Sets the path to the JaamSimJar file - update when moved to server.
 
-JarFilePath <- "/srv/shiny-server/MM1_Example/JaamSim2017-05.jar"
+JarFilePath <- "JaamSim2017-05.jar"
 
-BaseCfgFilePath <- "/srv/shiny-server/MM1_Example/MM1_exp_base.cfg"
+BaseCfgFilePath <- "MM1_exp_base.cfg"
 
-OutputFilePath <- "/srv/shiny-server/MM1_Example/MM1_exp_app.dat"
+OutputFilePath <- "MM1_exp_app.dat"
 
-CfgOutputFilePath <- "/srv/shiny-server/MM1_Example/MM1_exp_app.cfg"
+CfgOutputFilePath <- "MM1_exp_app.cfg"
 
 
 #######################################################################################
